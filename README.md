@@ -1,31 +1,6 @@
 
-
-  
-    var config = {
-        method: 'post',
-        url: 'https://netconnect.bluedart.com/Ver1.10/Demo/ShippingAPI/WayBill/WayBillGeneration.svc',
-        headers: { 
-          'Content-Type': 'application/soap+xml'
-        },
-        data : data2
-      };
-
-      axios(config)
-.then(function (response) {
-
-    
-        var options = {ignoreComment: true, alwaysChildren: true};
-var result = convert.xml2json(response.data, options);
-      // console.log(result);
-      const recieve = JSON.parse(result); // get whatever we want from this parsed JSON    
-        // log JSON string
-      //  console.log(json);
-        res.send(result);
-        
-//  console.log(JSON.stringify(response.data));
-  
-})
-.catch(function (error) {
-  console.log(error);
-});
-
+    'url': 'https://netconnect.bluedart.com/API-QA/Ver1.10/Demo/ShippingAPI/WayBill/WayBillGeneration.svc/rest/GenerateWayBill',
+    'headers': {
+      'Content-Type': 'application/json',
+      'Cookie': 'BIGipServerpl_netconnect-bluedart.dhl.com_443=2452957383.47873.0000; BIGipServerpl_netconnect-bluedart.dhl.com_9446=2469734599.58916.0000; TS01808994=01914b743d785ea8b74cd796b11dbe7dcf1d4af0d323e116a528e92d2fa07b6a041926be4020204f8c3c301368920fcb6763ea3440dba3182409d2937025229f916b095f265f4975ce6513ca783ced6761211130e0'
+    },
