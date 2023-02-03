@@ -1,1 +1,9 @@
-{"id":"63dcabd840a859512289389e"}
+"parameters": [
+                {
+                    "in": "formData",
+                    "name": "file",
+                    "type": "file",
+                    "required": true,
+                    "description": "The file to upload."
+                }
+            ],
