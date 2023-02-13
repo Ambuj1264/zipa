@@ -1,9 +1,1 @@
-"parameters": [
-                {
-                    "in": "formData",
-                    "name": "file",
-                    "type": "file",
-                    "required": true,
-                    "description": "The file to upload."
-                }
-            ],
+ PRiV9wdNGV1OwxJo6kppf5idnXWV2f8o3vQMlz07
