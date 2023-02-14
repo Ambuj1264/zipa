@@ -1,1 +1,1 @@
-https://api-demo.oceanio.com/schedules?origin=INPAV&destination=AEJEA&page=1&page_size=5&schedules=TIMEINTERVAL&begin_datetime=2023-02-16T12%3A00%3A00%2B00%3A00&end_datetime=2023-03-16T12%3A00%3A00%2B00%3A00
+https://github.com/microsoftarchive/redis/releases
